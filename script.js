@@ -1,47 +1,47 @@
-const mathNumber = prompt("What is Your Math Number")
-const englishNumber = prompt("What Is Your English Numbers")
-const urduNumber = prompt("What Is Your urdu Numbers")
-const islamiyateNumber = prompt("What Is Your islamiyate Numbers")
-const computerNumber = prompt("What Is Your computer Numbers")
+// const mathNumber = prompt("What is Your Math Number")
+// const englishNumber = prompt("What Is Your English Numbers")
+// const urduNumber = prompt("What Is Your urdu Numbers")
+// const islamiyateNumber = prompt("What Is Your islamiyate Numbers")
+// const computerNumber = prompt("What Is Your computer Numbers")
 
 
-document.write("Your Math Number is  " + mathNumber + "<br>" + "Your English Number is " + englishNumber + "<br>" + "Your urdu Number is  " + urduNumber + "<br>" + "Your islamiyate Number is  " + islamiyateNumber + "<br>" + "Your computer Number is  " + computerNumber + "<br>")
+// document.write("Your Math Number is  " + mathNumber + "<br>" + "Your English Number is " + englishNumber + "<br>" + "Your urdu Number is  " + urduNumber + "<br>" + "Your islamiyate Number is  " + islamiyateNumber + "<br>" + "Your computer Number is  " + computerNumber + "<br>")
 
 
 
-if (mathNumber > 33) {
-    document.write("Congratiols You are Pass in math Subject, And Your Number Is " + mathNumber + "<br>")
-} else {
-    document.write("You Are Fails in math Subject, And Your Number Is " + mathNumber + "<br>")
-}
+// if (mathNumber > 33) {
+//     document.write("Congratiols You are Pass in math Subject, And Your Number Is " + mathNumber + "<br>")
+// } else {
+//     document.write("You Are Fails in math Subject, And Your Number Is " + mathNumber + "<br>")
+// }
 
 
-if (englishNumber > 33) {
-    document.write("Congratiols You are Pass in english Subject, And Your Number Is " + englishNumber + "<br>")
-} else {
-    document.write("You Are Fails in english Subject, And Your Number Is " + englishNumber + "<br>")
-}
+// if (englishNumber > 33) {
+//     document.write("Congratiols You are Pass in english Subject, And Your Number Is " + englishNumber + "<br>")
+// } else {
+//     document.write("You Are Fails in english Subject, And Your Number Is " + englishNumber + "<br>")
+// }
 
 
-if (urduNumber > 33) {
-    document.write("Congratiols You are Pass in urdu Subject, And Your Number Is " + urduNumber + "<br>")
-} else {
-    document.write("You Are Fails in urdu Subject, And Your Number Is " + urduNumber + "<br>")
-}
+// if (urduNumber > 33) {
+//     document.write("Congratiols You are Pass in urdu Subject, And Your Number Is " + urduNumber + "<br>")
+// } else {
+//     document.write("You Are Fails in urdu Subject, And Your Number Is " + urduNumber + "<br>")
+// }
 
 
-if (islamiyateNumber > 33) {
-    document.write("Congratiols You are Pass in islamiyate Subject, And Your Number Is " + islamiyateNumber + "<br>")
-} else {
-    document.write("You Are Fails in islamiyate Subject, And Your Number Is " + islamiyateNumber + "<br>")
-}
+// if (islamiyateNumber > 33) {
+//     document.write("Congratiols You are Pass in islamiyate Subject, And Your Number Is " + islamiyateNumber + "<br>")
+// } else {
+//     document.write("You Are Fails in islamiyate Subject, And Your Number Is " + islamiyateNumber + "<br>")
+// }
 
 
-if (computerNumber > 33) {
-    document.write("Congratiols You are Pass in computer Subject, And Your Number Is " + computerNumber + "<br>")
-} else {
-    document.write("You Are Fails in computer Subject, And Your Number Is " + computerNumber + "<br>")
-}
+// if (computerNumber > 33) {
+//     document.write("Congratiols You are Pass in computer Subject, And Your Number Is " + computerNumber + "<br>")
+// } else {
+//     document.write("You Are Fails in computer Subject, And Your Number Is " + computerNumber + "<br>")
+// }
 
 
 
@@ -65,15 +65,15 @@ if (computerNumber > 33) {
 // console.log(typeof(a));
 
 
-// function tableOfTwo(multiplier) {
-//   if (multiplier > 10) {
-//     return;
-//   }
-//   document.write(`5 * ${multiplier} = ${5 * multiplier}<br>`);
-//   tableOfTwo(multiplier + 1);
-// }
+function tableOfTwo(multiplier) {
+  if (multiplier > 10) {
+    return;
+  }
+  document.write(`5 * ${multiplier} = ${5 * multiplier}<br>`);
+  tableOfTwo(multiplier + 1);
+}
 
-// tableOfTwo(1);
+tableOfTwo(1);
 
 // const students = [ "owais" , "shabaz" , "adnan"]
 
