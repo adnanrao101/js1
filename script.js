@@ -65,21 +65,21 @@
 // console.log(typeof(a));
 
 
-function tableOfTwo(multiplier) {
-  if (multiplier > 10) {
-    return;
-  }
-  document.write(`5 * ${multiplier} = ${5 * multiplier}<br>`);
-  tableOfTwo(multiplier + 1);
-}
+// function tableOfTwo(multiplier) {
+//   if (multiplier > 10) {
+//     return;
+//   }
+//   document.write(`5 * ${multiplier} = ${5 * multiplier}<br>`);
+//   tableOfTwo(multiplier + 1);
+// }
 
-tableOfTwo(1);
+// tableOfTwo(1);
 
-// const students = [ "owais" , "shabaz" , "adnan"]
+const students = [ "owais" , "shabaz" , "adnan"]
 
-// const pro = " Is pro Devloper"
+const pro = " Is pro Devloper"
 
-// console.log(students[2]+pro);
+console.log(students[2]+pro);
 
 // students.pop()
 
