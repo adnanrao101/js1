@@ -79,7 +79,7 @@ const students = [ "owais" , "shabaz" , "adnan"]
 
 const pro = " Is pro Devloper"
 
-console.log(students[2]+pro);
+document.write(students[2]+pro);
 
 // students.pop()
 
