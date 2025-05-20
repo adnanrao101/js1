@@ -135,44 +135,44 @@
 
 // console.log(pets);
 
-const persons = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+// const persons = ["ali", "adnan" , "shabaz", "owais", "hamza"]
 
-persons.splice(5, 0, "rao", "rana",)
+// persons.splice(5, 0, "rao", "rana",)
 
-console.log(persons);
-
-
-const persons2 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
-
-persons2.splice(2, 2, "rao", "rana",)
-
-console.log(persons2);
+// console.log(persons);
 
 
-const persons3 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+// const persons2 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
 
-persons3.splice(3, 1, "rao", "rana",)
+// persons2.splice(2, 2, "rao", "rana",)
 
-console.log(persons3);
-
-const persons4 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
-
-persons4.splice(0, 5, "rao", "rana",)
-
-console.log(persons4);
-
-const persons5 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
-
-persons5.splice(0, 3, "rao", "rana",)
-
-console.log(persons5);
+// console.log(persons2);
 
 
+// const persons3 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+// persons3.splice(3, 1, "rao", "rana",)
+
+// console.log(persons3);
+
+// const persons4 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+// persons4.splice(0, 5, "rao", "rana",)
+
+// console.log(persons4);
+
+// const persons5 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+// persons5.splice(0, 3, "rao", "rana",)
+
+// console.log(persons5);
 
 
-// const newmethod = ["b","c","b","r"]
 
 
-// const slic = newmethod.slice(1)
+const newmethod = ["b","c","b","r"]
 
-// console.log(slic);
+
+const slic = newmethod.slice(1,2)
+
+console.log(slic);
