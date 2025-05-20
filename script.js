@@ -112,3 +112,16 @@ car.model="2022";
 console.log(car);
 
 
+const person = {
+     firstname:"Adnan",
+     lastname:"Ejaz",
+     age:"21",
+     haircolor:"black",
+     height:"6.1 inchs", 
+}
+
+person.age="22";
+
+console.log(person);
+
+
