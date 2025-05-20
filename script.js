@@ -91,24 +91,24 @@
 
 
 
-const no = [ 100 , 200 , 300 , 400 , 500]
+// const no = [ 100 , 200 , 300 , 400 , 500]
 
 
-no[2] = 600;
+// no[2] = 600;
 
-console.log(no);
-
-
+// console.log(no);
 
 
-// const car = {type:"vitz", model:"2020", color:"white", price:"2M",};
 
-// // model = ("2022");
 
-// // name:value{1} = 2022
+const car = {type:"vitz", model:"2020", color:"white", price:"2M",};
 
-// car.model="2022";
+// model = ("2022");
 
-// console.log(car);
+// name:value{1} = 2022
+
+car.model="2022";
+
+console.log(car);
 
 
