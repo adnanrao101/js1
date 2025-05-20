@@ -75,16 +75,40 @@
 
 // tableOfTwo(1);
 
-const students = [ "owais" , "shabaz" , "adnan"]
+// const students = [ "owais" , "shabaz" , "adnan"]
 
-const pro = " Is pro Devloper"
+// // const pro = " Is pro Devloper"
 
-document.write(students[2]+pro);
+// // document.write(students[2]+pro);
 
 // students.pop()
-
-// console.log(students);
+// document.write(students);
 
 // students.push("newman", "feman", "heman")
 
-// console.log(students);
+// document.write(students);
+
+
+
+
+const no = [ 100 , 200 , 300 , 400 , 500]
+
+
+no[2] = 600;
+
+console.log(no);
+
+
+
+
+// const car = {type:"vitz", model:"2020", color:"white", price:"2M",};
+
+// // model = ("2022");
+
+// // name:value{1} = 2022
+
+// car.model="2022";
+
+// console.log(car);
+
+
