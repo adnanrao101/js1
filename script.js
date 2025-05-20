@@ -101,27 +101,78 @@
 
 
 
-const car = {type:"vitz", model:"2020", color:"white", price:"2M",};
+// const car = {type:"vitz", model:"2020", color:"white", price:"2M",};
 
 // model = ("2022");
 
 // name:value{1} = 2022
 
-car.model="2022";
+// car.model="2022";
 
-console.log(car);
-
-
-const person = {
-     firstname:"Adnan",
-     lastname:"Ejaz",
-     age:"21",
-     haircolor:"black",
-     height:"6.1 inchs", 
-}
-
-person.age="22";
-
-console.log(person);
+// console.log(car);
 
 
+// const person = {
+//      firstname:"Adnan",
+//      lastname:"Ejaz",
+//      age:"21",
+//      haircolor:"black",
+//      height:"6.1 inchs", 
+// }
+
+// person.age="22";
+
+// console.log(person);
+
+
+// const pets = ["dog" , "cats", "cows", "birds"]
+
+// // pets.shift()
+
+// // pets.unshift("birds" , "snakes");
+
+// pets.splice(2, 0, "aunt", "duck", "emu");
+
+// console.log(pets);
+
+const persons = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+persons.splice(5, 0, "rao", "rana",)
+
+console.log(persons);
+
+
+const persons2 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+persons2.splice(2, 2, "rao", "rana",)
+
+console.log(persons2);
+
+
+const persons3 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+persons3.splice(3, 1, "rao", "rana",)
+
+console.log(persons3);
+
+const persons4 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+persons4.splice(0, 5, "rao", "rana",)
+
+console.log(persons4);
+
+const persons5 = ["ali", "adnan" , "shabaz", "owais", "hamza"]
+
+persons5.splice(0, 3, "rao", "rana",)
+
+console.log(persons5);
+
+
+
+
+// const newmethod = ["b","c","b","r"]
+
+
+// const slic = newmethod.slice(1)
+
+// console.log(slic);
