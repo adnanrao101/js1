@@ -187,18 +187,26 @@
 // () paranthises
 // ; terminate
 
-const user = prompt("write a number")
+// const user = prompt("write a number")
 
 
-if (user == 0){
-    document.write("your number is equal to 0")
-}else{
-    if (user > 0){
-        document.write("your number is postive")
-    }else{
-        document.write("your number is negetive")
-    }
+// if (user == 0){
+//     document.write("your number is equal to 0")
+// }else{
+//     if (user > 0){
+//         document.write("your number is postive")
+//     }else{
+//         document.write("your number is negetive")
+//     }
 
+// }
+
+
+const a = prompt("What is your mobile number?");
+if (a.startsWith("+92")) {
+    document.write("Congratulations! You have a Pakistani number.");
+} else {
+    document.write("Sorry, you do not have a Pakistani number.");
 }
 
 
