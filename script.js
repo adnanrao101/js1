@@ -170,9 +170,41 @@
 
 
 
-const newmethod = ["b","c","b","r"]
+// const newmethod = ["b","c","b","r"]
 
 
-const slic = newmethod.slice(1,2)
+// const slice = newmethod.slice(1,2)
 
-console.log(slic);
+// console.log(slice);
+
+// for (var i = 0; i <= 4; i++) {
+//  if (cityToCheck === cleanestCities[i]) {
+//  alert("It's one of the cleanest cities");
+//  }
+//  }
+
+
+// () paranthises
+// ; terminate
+
+const user = prompt("write a number")
+
+
+if (user == 0){
+    document.write("your number is equal to 0")
+}else{
+    if (user > 0){
+        document.write("your number is postive")
+    }else{
+        document.write("your number is negetive")
+    }
+
+}
+
+
+
+
+
+
+
+
