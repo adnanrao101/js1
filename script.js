@@ -202,13 +202,24 @@
 // }
 
 
+// const a = prompt("What is your mobile number?");
+// if (a.startsWith("+92")) {
+//     document.write("Congratulations! You have a Pakistani number.");
+// } else {
+//     document.write("Sorry, you do not have a Pakistani number.");
+// }
+
+
 const a = prompt("What is your mobile number?");
-if (a.startsWith("+92")) {
+
+// Remove all non-numeric characters except +
+const cleanedNumber = a.replace(/[^+\d]/g, "");
+
+if (cleanedNumber.startsWith("+92")) {
     document.write("Congratulations! You have a Pakistani number.");
 } else {
     document.write("Sorry, you do not have a Pakistani number.");
 }
-
 
 
 
